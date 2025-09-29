@@ -1,5 +1,7 @@
 # EXP-03-Implement-Breadth-First-Search-Traversal-of-a-Graph
 Breadth First Search Traversal of a Graph
+Name: Ruban k
+Reg no: 212224030023
 
 
 AIM: 
@@ -68,8 +70,10 @@ Algorithm:
 3. Insert a Start Node into the Queue. 
 4. Find its Successors Or neighbors and Check whether the node is visited or not. 
 5. If Not Visited, add it to the Queue. Else Continue. 
-6. Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes. 
-Program: 
+6. Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
+
+##Program: 
+```
 from collections import deque 
 from collections import defaultdict 
 ''' 
@@ -111,7 +115,9 @@ start = '0'
 path = [] 
 visited = defaultdict(bool) 
 traversedpath = bfs(graph,start,visited,path) 
-print(traversedpath) 
+print(traversedpath)
+```
+
 Sample Input : 
 5 6 
 0 1 
